@@ -1,0 +1,35 @@
+
+body {
+  margin:0px;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+ul.qa-list {
+  list-style: none;
+  padding:0;
+  width:100%;
+}
+
+ul > li.qa-list-item {
+  margin:10px
+}
+
+a.qa-link {
+  text-decoration: none;
+  font-weight:bold; 
+  color:black
+}
+
+.qa-card {
+  width: 80%;
+  margin:auto
+}
+
+.qa-icon {
+  padding: 0 14px;
+  height:10px; width:10px;
+}
+
+.qa-spacer {
+  flex: 1 1 auto;
+}

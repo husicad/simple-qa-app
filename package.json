@@ -1,0 +1,49 @@
+{
+  "name": "questions-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Simple questions and answers Angular application",
+  "scripts": {
+    "lint": "tslint ./src/**/*.ts -t verbose",
+    "start": "ng serve",
+    "build": "ng build --prod",
+    "ng": "ng"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "changeOrigin": true,
+  "pathRewrite": {
+    "^/proxy": ""
+  },
+  "dependencies": {
+    "@angular/animations": "^7.2.7",
+    "@angular/cdk": "^7.3.3",
+    "@angular/common": "^7.1.0",
+    "@angular/compiler": "^7.1.0",
+    "@angular/core": "^7.1.0",
+    "@angular/forms": "^7.1.0",
+    "@angular/http": "^7.1.0",
+    "@angular/material": "^7.3.3",
+    "@angular/platform-browser": "^7.1.0",
+    "@angular/platform-browser-dynamic": "^7.1.0",
+    "@angular/router": "^7.1.0",
+    "@angular/upgrade": "^7.1.0",
+    "angular-in-memory-web-api": "github:brandonroberts/in-memory-web-api-bazel#50a34d8",
+    "core-js": "^2.5.4",
+    "hammerjs": "^2.0.8",
+    "rxjs": "^6.3.0",
+    "zone.js": "~0.8.26"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^0.13.4",
+    "@angular/cli": "^7.1.0",
+    "@angular/compiler-cli": "^7.1.0",
+    "@angular/platform-server": "^7.1.0",
+    "@types/node": "~8.9.4",
+    "lodash": "^4.16.2",
+    "tslint": "~5.11.0",
+    "typescript": "~3.1.1"
+  },
+  "repository": {}
+}

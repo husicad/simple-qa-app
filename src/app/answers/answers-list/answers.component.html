@@ -1,0 +1,18 @@
+<ul class="qa-list">
+  <form (ngSubmit)="add()">
+    <mat-form-field class="qa-form-ta">
+      <textarea matInput placeholder="Leave an answer" name="answerField" [(ngModel)]="answerText"></textarea>
+    </mat-form-field>
+
+    <span class="qa-spacer"></span>
+
+    <button type="submit" mat-icon-button [disabled]="!answerText.length">
+      <mat-icon>add</mat-icon>
+    </button>
+  </form>
+
+  <mat-divider class="qa-divider"></mat-divider>
+  <li class="qa-list-item" *ngFor="let answer of answers">
+    <answer [answer]="answer"></answer>
+  </li>
+</ul>

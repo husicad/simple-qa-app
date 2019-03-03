@@ -1,0 +1,17 @@
+
+
+button.qa-votes{
+  padding: 0 14px;
+}
+
+button.qa-votes span{
+  margin-left:10px
+}
+
+.qa-thumbdown{
+  color:red;
+}
+
+.qa-thumbup{
+  color:green;
+}
